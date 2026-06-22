@@ -21,6 +21,7 @@ Build x86 release: **exit 0, 0 erros, 0 warnings** → `build/Release/Kaentake.d
 4. [enderecos-v83.md](enderecos-v83.md) — todos os endereços hardcoded usados (validar!)
 5. [build-e-testes.md](build-e-testes.md) — como compilar + pré-requisitos manuais + roteiro de teste
 6. [riscos-e-pendencias.md](riscos-e-pendencias.md) — riscos conhecidos e follow-ups
+7. [ida-mcp-workflow.md](ida-mcp-workflow.md) — como usar o ida-pro-mcp + IDA 9.3 pra criar features novas
 
 ## Decisões tomadas (pelo usuário)
 
