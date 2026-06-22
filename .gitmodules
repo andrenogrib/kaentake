@@ -5,3 +5,6 @@
 	path = external/WzLib
 	url = https://github.com/iw2d/WzLib.git
 	branch = v83_DX8to9
+[submodule "external/ida-pro-mcp"]
+	path = external/ida-pro-mcp
+	url = https://github.com/mrexodia/ida-pro-mcp
