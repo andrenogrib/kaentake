@@ -32,6 +32,10 @@ public:
     void ClearToolTip() {
         reinterpret_cast<void(__thiscall*)(CUIToolTip*)>(0x008E6E23)(this);
     }
+    // worldmapinfo.cpp — builds a free-form tooltip body of the given pixel width/height
+    void SetToolTip_String2(int x, int y, ZXString<char> sToolTipTitle, ZXString<char> sToolTipDesc, int bUpDir, int bLogin, int bObjectToolTip, int nWidth, int bDoubleOutline, int bCharToolTip) {
+        reinterpret_cast<void(__thiscall*)(CUIToolTip*, int, int, ZXString<char>, ZXString<char>, int, int, int, int, int, int)>(0x008E7150)(this, x, y, sToolTipTitle, sToolTipDesc, bUpDir, bLogin, bObjectToolTip, nWidth, bDoubleOutline, bCharToolTip);
+    }
     void AddInfoEx(int nType, int nSubType, ZXString<char> sContext, ZXString<char> sSubContext, int bUseDot, int nAlign) {
         reinterpret_cast<void(__thiscall*)(CUIToolTip*, int, int, ZXString<char>, ZXString<char>, int, int)>(0x008F39E1)(this, nType, nSubType, sContext, sSubContext, bUseDot, nAlign);
     }

@@ -55,6 +55,8 @@ void AttachMobHpTagMod();
 void AttachToolTipMod();
 void AttachIconIconMod();
 void AttachTempStatMod();
+void AttachMapInfoToolTip();
+void AttachDiscordRPC();
 
 inline void AttachClientHooks() {
     AttachClientBypass();
@@ -68,6 +70,8 @@ inline void AttachClientHooks() {
     AttachToolTipMod();
     AttachIconIconMod();
     AttachTempStatMod();
+    AttachMapInfoToolTip();
+    AttachDiscordRPC();
 }
 
 
