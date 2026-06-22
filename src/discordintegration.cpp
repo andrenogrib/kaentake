@@ -19,7 +19,7 @@
 // Without a valid id + asset, presence either no-ops or shows no art.
 static const char* DISCORD_APPLICATION_ID = "1518476683198337115"; // BeiDou app
 static const char* LARGE_IMAGE_KEY        = "icon1";               // BeiDou art asset key
-static const char* SERVER_NAME            = "BeiDou";              // large-image hover text
+static const char* SERVER_NAME            = "DevMS v83";              // large-image hover text
 
 static const int   REFRESH_SECONDS = 15;   // Discord rate-limits presence to ~1 / 15s
 static const int   WARMUP_TICKS    = 3;    // ignore the first few ticks at startup
